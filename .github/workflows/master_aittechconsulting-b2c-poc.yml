@@ -8,6 +8,10 @@ on:
     branches:
       - master
 
+defaults:
+  run:
+    working-directory: 1-WebApp-OIDC/1-5-B2C
+
 jobs:
   build-and-deploy:
     runs-on: windows-latest
